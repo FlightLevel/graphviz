@@ -106,6 +106,7 @@ target_link_libraries(neatogen PRIVATE
   pathplan
   sparse
   rbtree
+  vpsc
 )
 
 if(GTS_FOUND)
